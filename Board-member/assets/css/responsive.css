@@ -1,0 +1,126 @@
+@media only screen and (max-width:1600px){
+   .user-table .table {
+    min-width: 1280px;
+}
+.custom-width{
+	padding: 10px;
+}
+.custom-width-inner .media {
+    padding: 20px 10px;
+    }
+    
+.user-table.group-table .table {
+    min-width: 100%;
+}
+}
+@media only screen and (max-width:1440px){
+    #list-view .custom-width{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding:10px;
+}
+.member-profile-data-wrapper-inner p {
+    font-size: 11px;
+    text-align: right;
+}
+
+.award-section .col-sm-3:nth-child(3){
+    padding-left: 0px !important;
+}
+.Applications-Details-v .research-questions .details-wrapper-inner.custom-margin-right{
+    padding: 40px 30px;
+}
+.application-details-screen #accessment-tab .details-wrapper-inner.custom-margin-right {
+     padding: 40px 30px;
+}
+}
+@media only screen and (max-width:1279px){
+	#list-view .custom-width {
+    padding:10px;
+}
+	#grid-view .custom-width {
+    padding:10px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+#list-view .custom-width-inner{
+	padding:10px; 
+}
+.user-table.group-table .table {
+    min-width: 1280px;
+}
+.member-section-inner{
+    display: block;
+    text-align: center;
+}
+.member-section-inner-content{
+    padding: 20px 0 0;
+}
+.contact-details-inner{
+    display: block;
+}
+.btn-switch{
+    padding: 10px;
+}
+.change-password.btn-switch img{
+    margin-right: 5px;
+}
+.member-section .main-padding {
+    padding: 20px 10px;
+}
+.member-profile-data-wrapper-inner .col-sm-3, .col-sm-9 {
+    padding: 5px;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.member-profile-data-wrapper-inner p{
+    text-align: left;
+}
+.member-profile-data-wrapper {
+    padding: 20px 20px;
+}
+.member-profile-data h6 {
+    padding: 20px;
+    }
+  .award-section .col-sm-3{
+    flex:0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.Applications-Details-v .research-questions .details-wrapper-inner.custom-margin-right{
+    padding: 20px 15px;
+}
+.application-details-screen #accessment-tab .details-wrapper-inner.custom-margin-right{
+    padding: 20px 15px;
+}
+.Applications-Details-v .main-content-header-inner1{
+    justify-content: center !important;
+}
+
+.Applications-Details-v .details-wrapper .row > .col-sm-6{
+    flex:0 0 100%;
+    max-width: 100%;
+}
+.Applications-Details-v.Product-details .main-content-header-inner-table .details-wrapper .col-sm-6:nth-child(2) .row .col-sm-12:nth-child(1) .details-wrapper-inner{
+    border-top: 1px solid #dee2e6 !important;
+}
+.Applications-Details-v.Product-details .main-content-header-inner-table .details-wrapper{
+    padding:20px;
+}
+}
+@media only screen and (max-width:1199px){
+      .award-section .col-sm-3{
+    flex:0 0 50%;
+    max-width: 50%;
+}
+.Applications-Details-v .main-content-header-inner1 .mc-header-inner1-left h3{
+    padding-bottom: 20px !important;
+}
+.btn-tabs{
+    font-size: 14px;
+    padding: 0 10px;
+}
+.application-details-screen .mc-header-inner1-right.btn-group-start {
+    margin-right: 16px;
+}
+}

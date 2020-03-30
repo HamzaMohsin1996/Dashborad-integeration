@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tabs</title>
+	<style type="text/css">
+		.tabs-container {
+		    display: flex;
+		    flex-wrap: wrap;
+		    border: 1px solid #b9b4b4;
+		    overflow-x: hidden;
+		    border-left: none;
+            border-right: none
+		}
+		.single-tab {
+		     flex: auto;
+		    color: white;
+		    padding: 20px 40px;
+		    background-color: white;
+		    position: relative;
+		    text-align: center;
+		}
+		.single-tab.active {
+			    background-color: #005588;
+			    border: none;
+			}
+		.single-tab::after {
+    content: "";
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 99.5%;
+    z-index: 1;
+    clip-path: polygon(0px 0px, 2px 0px, 100% 50%, 2px 100%, 0 100%, 18px 50%);
+    background: #e7e7e7;
+}
+.single-tab.active::after {
+    clip-path: polygon(0px 0px, 2px 0px, 100% 50%, 2px 100%, 0 100%);
+    background: #005588;
+}
+		.single-tab.active::before {
+    content: "";
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    z-index: 2;
+    clip-path: polygon(0px 0px, 2px 0px, 100% 50%, 2px 100%, 0 100%);
+    background: white;
+    border: none;
+}
+	</style>
+	
+
+</head>
+<body>
+	<div class="tabs-container">
+		<div class="single-tab active">Tab 1</div>
+		<div class="single-tab">Tab 2</div>
+		<div class="single-tab">Tab 3</div>
+		<div class="single-tab">Tab 4</div>
+		<div class="single-tab">Tab 5</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".single-tab").click(function(){
+				$(".single-tab").removeClass("active");
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>

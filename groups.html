@@ -1,0 +1,318 @@
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <title>Abudabi Smart City</title>
+   </head>
+   <body class="Groups-details">
+      <header>
+         <div class="header-inner d-flex flex-wrap justify-content-between align-items-center bg-white">
+            <div class="header-inner-left d-flex align-items-center">
+               <div class="logo-box">
+                  <a href="index.html">
+                  <img src="assets/images/logo.png" class="logo" alt="logo">
+                  </a>
+               </div>
+            </div>
+            <div class="header-inner-right d-flex align-items-center">
+               <div class="btn-search">
+                  <input type="text" class="search-focus" name="" placeholder="search here...">
+                  <button class="btn-common"><img src="assets/images/alarm.svg"></button> 
+               </div>
+               <div class="dropdown">
+                  <button class="btn-header-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Welcome Hassan
+                  <img src="assets/images/man.png" alt="Man image">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                     <a class="dropdown-item" href="#">Action</a>
+                     <a class="dropdown-item" href="#">Another action</a>
+                     <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="mt-for-main">
+         <div class="main-inner d-flex">
+            <div class="sidebar bg-white wow fadeInLeft" data-wow-duration='.5s'>
+               <ul>
+                  <li>
+                     <a href="index.html">
+                        <img src="assets/images/application.svg">
+                        <p>Application</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="members.html" >
+                        <img src="assets/images/member.svg">
+                        <p>Members</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="groups.html" class="active">
+                        <img src="assets/images/group.svg">
+                        <p>Groups</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="award.html">
+                        <img src="assets/images/request-form.svg">                        
+                        <p>Request Award</p>
+                     </a>
+                  </li>
+                  </li>
+                  <li>
+                     <a href="profile.html">
+                        <img src="assets/images/setting.svg">                        
+                        <p>Settings</p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div  class="main-content-box d-flex flex-wrap align-content-between">
+               <nav aria-label="breadcrumb" class="w-100">
+                  <ol class="breadcrumb m-0">
+                     <li class="breadcrumb-item"><a href="#">Groups</a></li>
+                     <li class="breadcrumb-item active" aria-current="page">Groups</li>
+                  </ol>
+               </nav>
+               <div class="main-content w-100">
+                  <div class="main-content-header">
+                     <div class="main-content-header-inner1 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="mc-header-inner1-left">
+                           <h3 class="m-0">Groups List</h3>
+                        </div>
+                        <div class="mc-header-inner1-right ml-auto">
+                           <a href="javascript:void(0);" class="btn btn-blue mr-0" data-toggle="modal" data-target="#group-modal">Create group</a>
+                           <!--Create  Modal Html -->
+                           <div class="modal fade" id="group-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                 <div class="modal-content">
+                                    <div class="modal-header">
+                                       <h5 class="modal-title" id="exampleModalLongTitle">Create Group</h5>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                       <span aria-hidden="true"><img src="assets/images/x-mark.png" alt="X mark-images"></span>
+                                       </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <form>
+                                          <div class="row m-0">
+                                             <div class="form-group col-sm-12">
+                                                <label class="text-blue mt-0">Name:</label>
+                                                <input type="text" class="form-control" placeholder="Name">
+                                             </div>
+                                             <div class="form-group col-sm-12">
+                                                <label class="text-blue">Add Members</label>
+                                                <select class="form-control">
+                                                   <option>Select Members</option>
+                                                   <option>1</option>
+                                                   <option>2</option>
+                                                   <option>3</option>
+                                                   <option>4</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                       </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                       <button type="button" class="btn btn-transparent" data-dismiss="modal">Cancel</button>
+                                       <button type="button" class="btn btn-blue mr-0">Create</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="main-content-header-inner-table d-flex flex-wrap justify-content-between">
+                        <!-- Actual search box -->
+                        <div class="form-group has-search">
+                           <span class="fa fa-search form-control-feedback"></span>
+                           <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <div class="views-btn d-flex align-items-center nav nav-tabs flex-nowrap" id="nav-tab" role="tablist">
+                           <a class="btn ml-0 active" id="grid-view-tab" data-toggle="tab" href="#grid-view" role="tab" aria-controls="grid-view" aria-selected="true"><i class="fa fa-th" aria-hidden="true"></i></a>
+                           <a class="btn" id="list-view-tab" data-toggle="tab" href="#list-view" role="tab" aria-controls="list" aria-selected="true"><i class="fa fa-list" aria-hidden="true"></i></a>
+                           <button class="btn"></button>
+                        </div>
+                     </div>
+                     <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="grid-view" role="tabpanel" aria-labelledby="grid-tab">
+                           <div class="members-list">
+                              <div class="row m-0">
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="custom-width-inner">
+                                          <div class="group-public d-flex align-items-center justify-content-between">
+                                             <span class="status-p">Public</span>
+                                             <span>Last active 3h ago</span>
+                                          </div>
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="custom-width-inner">
+                                          <div class="group-public d-flex align-items-center justify-content-between">
+                                             <span class="status-p">Public</span>
+                                             <span>Last active 3h ago</span>
+                                          </div>
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="custom-width-inner">
+                                          <div class="group-public d-flex align-items-center justify-content-between">
+                                             <span class="status-p">Public</span>
+                                             <span>Last active 3h ago</span>
+                                          </div>
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="custom-width-inner">
+                                          <div class="group-public d-flex align-items-center justify-content-between">
+                                             <span class="status-p">Public</span>
+                                             <span>Last active 3h ago</span>
+                                          </div>
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="group-public d-flex align-items-center justify-content-between">
+                                          <span class="status-p">Public</span>
+                                          <span>Last active 3h ago</span>
+                                       </div>
+                                       <div class="custom-width-inner">
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-view" role="tabpanel" aria-labelledby="list-tab">
+                           <div class="members-list">
+                              <div class="row m-0">
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="group-public d-flex align-items-center justify-content-between">
+                                          <span class="status-p">Public</span>
+                                          <span>Last active 3h ago</span>
+                                       </div>
+                                       <div class="custom-width-inner">
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="group-public d-flex align-items-center justify-content-between">
+                                          <span class="status-p">Public</span>
+                                          <span>Last active 3h ago</span>
+                                       </div>
+                                       <div class="custom-width-inner">
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="group-public d-flex align-items-center justify-content-between">
+                                          <span class="status-p">Public</span>
+                                          <span>Last active 3h ago</span>
+                                       </div>
+                                       <div class="custom-width-inner">
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                                 <div class="custom-width">
+                                    <div class="members-details-inner">
+                                       <div class="group-public d-flex align-items-center justify-content-between">
+                                          <span class="status-p">Public</span>
+                                          <span>Last active 3h ago</span>
+                                       </div>
+                                       <div class="custom-width-inner">
+                                          <img src="assets/images/groups.png" alt="members-images">
+                                          <div class="members-details">
+                                             <p class="text-blue">It Group</p>
+                                             <p class="email-p">25 Members</p>
+                                          </div>
+                                       </div>
+                                       <a href="details-group.html" class="view-details-btn"><img src="assets/images/eye.svg" class="eye-images">View Details</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         </div>
+      </main>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>
